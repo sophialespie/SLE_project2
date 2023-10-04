@@ -1,1 +1,73 @@
 /* Place CSS styles here */
+nav a,
+.my-button {
+  display: inline-flex;
+  padding: 16px;
+  border: 1px solid rgb(241, 125, 125);
+  background-color: #ffa7a7;
+  color: #a52a2a;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  text-decoration: none;
+  transition: all .25s ease;
+  width: auto;
+}
+
+nav a:hover,
+.my-button:hover {
+  color: white;
+  background-color: #ffc0cb;
+}
+  
+  /* menue set up */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  article {
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; 
+  }
+  
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* header design ect */
+header {
+    background-color: #ffa7a7;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(49, 0, 61);
+  }
+/* fonts for website */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.image1 
+
+/* Lavendar Chicken section */
+.header,
+.yellow-pig-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.image1{
+    display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: right;
+}
+
+.image1{
+    position: absolute;
+    right: auto;
+}
+
