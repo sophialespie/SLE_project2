@@ -43,8 +43,6 @@ a:hover {
     display: table;
     clear: both;
   }
-
-/* fonts for website */
   body {
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -63,7 +61,7 @@ a:hover {
 aside{
   width: 20%;
   max-width: 150px;
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   grid-row: auto;
 }
 
